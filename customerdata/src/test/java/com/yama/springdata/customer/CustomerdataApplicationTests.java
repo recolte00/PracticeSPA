@@ -27,7 +27,6 @@ class CustomerdataApplicationTests {
 	@Test
 	public void testCreate() {
 		Customer customer = new Customer();
-		customer.setId(1);
 		customer.setName("Kogarashisan");
 		customer.setEmail("gogogo@i.b.jp");
 		
